@@ -1,0 +1,73 @@
+<!-- VIDEOS GALLERY PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Gallery – Brian Newton</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-neutral-900 text-slate-100 antialiased">
+
+  <!-- Header -->
+  <header class="container mx-auto px-6 py-8 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-4">
+      <div class="w-14 h-14 rounded-full bg-gradient-to-tr from-indigo-500 via-pink-500 to-amber-400 flex items-center justify-center text-black font-bold">BN</div>
+      <h1 class="text-xl font-semibold">Brian Newton</h1>
+    </a>
+    <nav class="flex items-center gap-4">
+      <a href="projects.html" class="px-4 py-2 rounded-lg hover:bg-white/6 transition">Projects</a>
+      <a href="about.html" class="px-4 py-2 rounded-lg hover:bg-white/6 transition">About</a>
+      <a href="contact.html" class="px-4 py-2 rounded-lg hover:bg-white/6 transition">Contact</a>
+      <a href="Home.html" class="px-4 py-2 rounded-lg bg-white/8">Home</a>
+    </nav>
+  </header>
+
+  <!-- Video Gallery Section -->
+  <section class="container mx-auto px-6 py-12">
+    <h2 class="text-4xl font-bold mb-6 text-center">Video Gallery</h2>
+    <p class="text-slate-300 max-w-2xl mx-auto text-center mb-10">
+      Here are some of my favorite video editing projects — from cinematic cuts to social media reels. Click to watch!
+    </p>
+
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Video 1 -->
+      <div class="rounded-2xl overflow-hidden bg-white/5 hover:scale-[1.02] transform transition">
+        <video controls class="w-full h-auto">
+          <source src="assets/video1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="p-4">
+          
+        </div>
+      </div>
+
+      <!-- Video 2 -->
+      <div class="rounded-2xl overflow-hidden bg-white/5 hover:scale-[1.02] transform transition">
+        <video controls class="w-full h-auto">
+          <source src="assets/video2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="p-4">
+        </div>
+      </div>
+
+      <!-- Video 3 -->
+      <div class="rounded-2xl overflow-hidden bg-white/5 hover:scale-[1.02] transform transition">
+        <video controls class="w-full h-auto">
+          <source src="assets/video3.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="p-4">
+          
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-10 text-center text-slate-400">
+    © <script>document.write(new Date().getFullYear())</script> Brian Newton • Designed & built by you.
+  </footer>
+</body>
+</html>

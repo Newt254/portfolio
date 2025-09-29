@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brian Newton – Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-neutral-900 text-slate-100 antialiased">
+  <!-- Header -->
+  <header class="container mx-auto px-6 py-8 flex items-center justify-between">
+    <div class="flex items-center gap-4">
+      <div class="w-14 h-14 rounded-full bg-gradient-to-tr from-indigo-500 via-pink-500 to-amber-400 flex items-center justify-center text-black font-bold">BN</div>
+      <div>
+        <h1 class="text-2xl font-semibold">Brian Newton — Creative Technologist</h1>
+        <p class="text-sm text-slate-300">Video editor • Photo retoucher • Graphic & Web designer</p>
+      </div>
+    </div>
+    <nav class="flex items-center gap-4">
+      <a href="Projects.html" class="px-4 py-2 rounded-lg bg-white/8 hover:bg-white/12 transition">Projcts</a>
+      <a href="about.html" class="px-4 py-2 rounded-lg hover:bg-white/6 transition">About</a>
+      <a href="contact.html" class="px-4 py-2 rounded-lg bg-indigo-500/90 hover:bg-indigo-600 transition">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="container mx-auto px-6 grid md:grid-cols-2 gap-8 items-center py-12">
+    <div class="space-y-6">
+      <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">Stylish, modern portfolio that highlights craft and process.</h2>
+      <p class="text-slate-300 max-w-xl">I create visual stories — from tightly edited videos to pixel-perfect websites. I combine design thinking with technical execution to ship assets that stand out.</p>
+      <div class="flex gap-3">
+        <a href="assets/resume.pdf" download class="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-white text-black font-medium shadow">Download CV</a>
+        <a href="#projects" class="inline-flex items-center px-4 py-2 rounded-md border border-white/10">See my work</a>
+      </div>
+      <div class="flex items-center gap-3 text-slate-300 mt-4">
+        <a href="#" aria-label="Github">Github</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="mailto:you@example.com" aria-label="Email">Email</a>
+      </div>
+    </div>
+    <div class="relative">
+      <div class="w-full aspect-video rounded-2xl overflow-hidden bg-gradient-to-tr from-indigo-700 via-pink-600 to-amber-500 shadow-2xl flex items-center justify-center">
+        <p class="text-xl font-semibold"><img src="Images/me1.jpg"alt="Brian Newton" class="w-full aspect-picture rounded-2xl shadow-2xl flex items-center justify-center"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills / Services -->
+  <section id="about" class="container mx-auto px-6 py-10">
+    <h3 class="text-2xl font-bold">Skills & Services</h3>
+    <p class="text-slate-300 max-w-2xl mt-2">I offer end-to-end creative services: concept, production, post, and delivery. Choose the service and let's make something great.</p>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
+      <div class="rounded-2xl p-5 bg-white/4 backdrop-blur-sm">
+        <h4 class="font-semibold text-lg">Video Editing</h4>
+        <p class="text-slate-300 mt-2 text-sm">Cutting, pacing, color grading, motion graphics</p>
+        <span class="inline-block mt-4 px-3 py-1 text-xs rounded-full"><img src="Images/vid003.jpg"alt="Brian Newton" class="w-full aspect-picture rounded-2xl shadow-2xl flex items-center justify-center"></span>
+      </div>
+      <div class="rounded-2xl p-5 bg-white/4 backdrop-blur-sm">
+        <h4 class="font-semibold text-lg">Photo Editing</h4>
+        <p class="text-slate-300 mt-2 text-sm">Retouching, composites, color correction</p>
+        <span class="inline-block mt-4 px-3 py-1 text-xs rounded-full"><img src="Images/me1.jpg"alt="Brian Newton" class="w-full aspect-picture rounded-2xl shadow-2xl flex items-center justify-center"></p></span>
+      </div>
+      <div class="rounded-2xl p-5 bg-white/4 backdrop-blur-sm">
+        <h4 class="font-semibold text-lg">Graphic Design</h4>
+        <p class="text-slate-300 mt-2 text-sm">Posters, branding, print-ready files</p>
+        <span class="inline-block mt-4 px-3 py-1 text-xs rounded-full"><img src="Images/poster001.jpg"alt="Brian Newton" class="w-full aspect-picture rounded-2xl shadow-2xl flex items-center justify-center"></p></span></span>
+      </div>
+      <div class="rounded-2xl p-5 bg-white/4 backdrop-blur-sm">
+        <h4 class="font-semibold text-lg">Web Design</h4>
+        <p class="text-slate-300 mt-2 text-sm">Responsive UI, prototypes, production-ready code</p>
+        <span class="inline-block mt-4 px-3 py-1 text-xs rounded-full"><img src="Images/web001.jpg"alt="Brian Newton" class="w-full aspect-picture rounded-2xl shadow-2xl flex items-center justify-center"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container mx-auto px-6 py-12">
+    <div class="flex items-center justify-between">
+      <h3 class="text-2xl font-bold">Selected Projects</h3>
+      <p class="text-slate-400 text-sm">Full case studies available on request</p>
+    </div>
+
+    <div class="grid gap-6 mt-6 sm:grid-cols-2 lg:grid-cols-3">
+      <a href="#" class="block rounded-2xl overflow-hidden bg-white/5 hover:scale-[1.02] transform transition-shadow shadow-lg">
+        <div class="w-full aspect-[16/10] bg-center bg-cover" style="background-image: url('Images/vid004.jpg');"></div>
+        <div class="p-4">
+          <h4 class="font-semibold">Cinematic Short — Video Editing</h4>
+          <p class="text-slate-300 text-sm mt-1">Video Editing, Color Grading</p>
+        </div>
+      </a>
+      <a href="#" class="block rounded-2xl overflow-hidden bg-white/5 hover:scale-[1.02] transform transition-shadow shadow-lg">
+        <div class="w-full aspect-[16/10] bg-center bg-cover" style="background-image: url('Images/me4a.jpg');"></div>
+        <div class="p-4">
+          <h4 class="font-semibold">Brand Photoshoot — Photo Editing</h4>
+          <p class="text-slate-300 text-sm mt-1">Retouching, Compositing</p>
+        </div>
+      </a>
+      <a href="#" class="block rounded-2xl overflow-hidden bg-white/5 hover:scale-[1.02] transform transition-shadow shadow-lg">
+        <div class="w-full aspect-[16/10] bg-center bg-cover" style="background-image: url('Images/web002.jpg');"></div>
+        <div class="p-4">
+          <h4 class="font-semibold">E‑Commerce UI — Web Design</h4>
+          <p class="text-slate-300 text-sm mt-1">Figma → HTML/CSS, React</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mx-auto px-6 py-12">
+    <div class="rounded-2xl p-8 bg-gradient-to-tr from-white/4 to-white/3">
+      <h3 class="text-2xl font-bold">Get in touch</h3>
+      <p class="text-slate-300 mt-2">Interested in working together? Send a short message and I'll reply within a day.</p>
+
+      <form action="#" class="mt-6 grid gap-4 sm:grid-cols-2">
+        <input class="rounded-lg p-3 bg-black/30 text-white" placeholder="Your name" />
+        <input class="rounded-lg p-3 bg-black/30 text-white" placeholder="Your email" />
+        <input class="rounded-lg p-3 bg-black/30 text-white col-span-2" placeholder="Subject" />
+        <textarea class="rounded-lg p-3 bg-black/30 text-white col-span-2" rows="5" placeholder="Message"></textarea>
+        <button class="col-span-2 rounded-md py-3 bg-indigo-500 font-semibold">Send message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 text-center text-slate-400">© <script>document.write(new Date().getFullYear())</script> Brian Newton • Designed & built by you.</footer>
+</body>
+</html>
