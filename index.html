@@ -24,26 +24,49 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="container mx-auto px-6 grid md:grid-cols-2 gap-8 items-center py-12">
-    <div class="space-y-6">
-      <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">Edit. Design. Create. — Crafting powerful visuals and modern digital experiences that help brands stand out.</h2>
-      <p class="text-slate-300 max-w-xl">I create visual stories — from tightly edited videos to pixel-perfect websites. I combine design thinking with technical execution to ship assets that stand out.</p>
-      <div class="flex gap-3">
-        <a href="assets/resume.pdf" download class="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-white text-black font-medium shadow">Download CV</a>
-        <a href="#projects" class="inline-flex items-center px-4 py-2 rounded-md border border-white/10">See my work</a>
-      </div>
-      <div class="flex items-center gap-3 text-slate-300 mt-4">
-        <a href="#" aria-label="Github">Github</a>
-        <a href="#" aria-label="LinkedIn">LinkedIn</a>
-        <a href="mailto:you@example.com" aria-label="Email">Email</a>
-      </div>
+  <!-- Hero Section -->
+<section class="container mx-auto px-6 grid md:grid-cols-2 gap-8 items-center py-12">
+  <div class="space-y-6">
+    <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">
+      Edit. Design. Create. — Crafting powerful visuals and modern digital experiences that help brands stand out.
+    </h2>
+    <p class="text-slate-300 max-w-xl">
+      I create visual stories — from tightly edited videos to pixel-perfect websites. I combine design thinking with technical execution to ship assets that stand out.
+    </p>
+
+    <!-- Keep Download CV + Work Button -->
+    <div class="flex gap-3">
+      <a href="assets/resume.pdf" download class="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-white text-black font-medium shadow hover:bg-slate-200 transition">
+        <i class="fas fa-download"></i> Download CV
+      </a>
+      <a href="#projects" class="inline-flex items-center px-4 py-2 rounded-md border border-white/10 hover:bg-white/10 transition">
+        See my work
+      </a>
     </div>
-    <div class="relative">
-      <div class="w-full aspect-video rounded-2xl overflow-hidden bg-gradient-to-tr from-indigo-700 via-pink-600 to-amber-500 shadow-2xl flex items-center justify-center">
-        <p class="text-xl font-semibold"><img src="me1.jpg"alt="Brian Newton" class="w-full aspect-picture rounded-2xl shadow-2xl flex items-center justify-center"></p>
-      </div>
+
+    <!-- Social Links with Icons -->
+    <div class="flex items-center gap-5 text-slate-300 mt-4 text-2xl">
+      <!-- WhatsApp -->
+      <a href="https://wa.me/2547XXXXXXXX" target="_blank" aria-label="WhatsApp" class="hover:text-green-400">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <!-- Instagram -->
+      <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram" class="hover:text-pink-400">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <!-- Email -->
+      <a href="mailto:yourname@example.com" aria-label="Email" class="hover:text-blue-400">
+        <i class="fas fa-envelope"></i>
+      </a>
     </div>
-  </section>
+  </div>
+
+  <div class="relative">
+    <div class="w-full aspect-video rounded-2xl overflow-hidden bg-gradient-to-tr from-indigo-700 via-pink-600 to-amber-500 shadow-2xl flex items-center justify-center">
+      <img src="Images/me1.jpg" alt="Brian Newton" class="w-full rounded-2xl shadow-2xl" />
+    </div>
+  </div>
+</section>
 
   <!-- Skills / Services -->
   <section id="about" class="container mx-auto px-6 py-10">
